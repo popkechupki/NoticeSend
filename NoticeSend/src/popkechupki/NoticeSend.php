@@ -68,7 +68,7 @@ class NoticeSend extends PluginBase implements Listener{
                     if ($CheckName){
                         $this->config->remove($Name);
                         $this->config->save();
-                        $sender->sendMessage("[NoticeSend]通知を消去しました。");
+                        $sender->sendMessage("[Notice]通知を消去しました。");
                     }else{
                         $sender->sendMessage("[NoticeSend]通知が届いていません。");
                     }
