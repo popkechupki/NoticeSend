@@ -1,0 +1,18 @@
+name: NoticeSend
+main: popkechupki\NoticeSend
+version: build2
+api: [1.13.0]
+load: POSTWORLD
+author: popkechupki
+description: "通知を送信するプラグイン"
+commands:
+ notice:
+  description: "NoticeSend's main commmand."
+  permission: NoticeSend.op
+ read: 
+  description: "通知を確認できます。"
+ del: 
+  descripntion: "自分宛の通知を消去します。"
+permissions: 
+ NoticeSend.op: 
+  default: op
