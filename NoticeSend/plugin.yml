@@ -1,6 +1,6 @@
 name: NoticeSend
 main: popkechupki\NoticeSend
-version: 0.1
+version: 0.1.1
 api: [1.13.0]
 load: POSTWORLD
 author: popkechupki
